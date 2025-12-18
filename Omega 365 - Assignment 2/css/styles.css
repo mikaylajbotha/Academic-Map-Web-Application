@@ -1,0 +1,200 @@
+/* General styles for the entire document */
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; 
+    color: #343a40;
+}
+
+/* Main container that holds the primary content */
+.container {
+    width: 80%; 
+    margin: 0 auto; 
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for header and academic map titles */
+header, .academic-map-title {
+    margin: 20px 0;
+    color: #343a40; 
+    text-align: center; 
+}
+
+/* Footer styling */
+footer {
+    text-align: center; 
+    margin: 20px 0; 
+    color: #6c757d; 
+}
+
+/* Styles for action buttons used throughout the application */
+.edit-courses-btn, .add-course-btn, .remove-course-btn, .save-btn, .done-btn, .cancel-btn {
+    background-color: #dc3545; 
+    border: none;
+    color: #ffffff;
+    padding: 12px 24px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 8px 4px; 
+    cursor: pointer;
+    border-radius: 4px; 
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; 
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+/* Hover effect for action buttons */
+.edit-courses-btn:hover, .add-course-btn:hover, .remove-course-btn:hover, .save-btn:hover, .done-btn:hover, .cancel-btn:hover {
+    background-color: #bd2130; 
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+/* Styling for the PDF download button */
+#download-pdf {
+    background-color: #28a745; 
+    color: #ffffff; 
+    padding: 12px 24px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 16px; /* Set font size */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Smooth transitions for hover effects */
+    font-weight: bold; /* Make button text bold */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+/* Hover effect for the PDF download button */
+#download-pdf:hover {
+    background-color: #218838; /* Darken the green background on hover */
+    transform: translateY(-2px); /* Slightly lift the button on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase the shadow for a more pronounced effect */
+}
+
+/* Styling for the course table that lists courses */
+.courses-table {
+    width: 100%; /* Make the table take up the full width of its container */
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+    margin-top: 20px; /* Add top margin to separate the table from other content */
+    background-color: #ffffff; /* Apply a white background to the table */
+}
+
+/* Table header and cell styles */
+.courses-table th, .courses-table td {
+    border: 1px solid #ddd; /* Apply a light border around cells */
+    padding: 16px; /* Add padding inside table cells */
+    text-align: left; /* Left align text in cells */
+}
+
+/* Styling specifically for table headers */
+.courses-table th {
+    background-color: #f8f9fa; /* Light gray background for header cells */
+    color: #343a40; /* Use dark slate color for header text */
+}
+
+/* Alternate background color for odd rows */
+.courses-table tr:nth-child(odd) td {
+    background-color: #f0f0f0; /* Light gray background for odd rows */
+}
+
+/* Background color for even rows */
+.courses-table tr:nth-child(even) td {
+    background-color: #ffffff; /* White background for even rows */
+}
+
+/* Hover effect for table rows */
+.courses-table tbody tr:hover {
+    background-color: #e9ecef; /* Light gray background when hovering over rows */
+}
+
+/* Styling for the total semester hours display box */
+.total-semester-hours {
+    background-color: #ffe600; /* Apply a bright yellow background */
+    color: #343a40; /* Use dark slate color for text */
+    padding: 12px; /* Add padding inside the box */
+    font-size: 1.1em; /* Slightly increase font size */
+    margin-top: 10px; /* Add top margin to separate from other elements */
+    display: inline-block; /* Display as an inline-block element */
+    font-weight: bold; /* Make text bold */
+    border-radius: 4px; /* Round the corners of the box */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+/* Center the total semester hours box and add bottom margin */
+.total-semester-hours-container {
+    text-align: center; /* Center align the box */
+    margin-bottom: 20px; /* Add bottom margin to separate from other content */
+}
+
+/* Styles for text input fields and text areas within the form */
+#academic-map-form input[type="text"], #academic-map-form textarea {
+    width: calc(100% - 20px); 
+    padding: 10px; /* Add padding inside the fields */
+    margin: 10px 0; /* Add margin around the fields */
+    border: 1px solid #ddd; /* Apply a light border */
+    border-radius: 4px; /* Round the corners of the fields */
+    font-size: 16px; /* Set font size */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Styling for the form's submit button */
+#academic-map-form button {
+    background-color: #007bff; /* Apply a blue background color */
+    color: #ffffff; /* Use white text color */
+    padding: 12px 24px; /* Add padding inside the button */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Round the corners of the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 16px; /* Set font size */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Smooth transitions for hover effects */
+    font-weight: bold; /* Make button text bold */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+/* Hover effect for the form's submit button */
+#academic-map-form button:hover {
+    background-color: #0056b3; /* Darken the blue background on hover */
+    transform: translateY(-2px); /* Slightly lift the button on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase the shadow for a more pronounced effect */
+}
+
+/* Modal styling for overlay and content box */
+.modal {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    position: fixed; /* Fix the modal to the viewport */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    z-index: 1000; /* Ensure modal appears on top of other content */
+}
+
+/* Styling for the content inside the modal */
+.modal-content {
+    background-color: #fff; /* White background for the modal content */
+    padding: 20px; /* Add padding inside the modal */
+    border-radius: 5px; /* Slightly round the corners */
+    width: 400px; /* Set fixed width for the modal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a more pronounced shadow */
+}
+
+/* Styling for the close button inside the modal */
+.close-btn {
+    float: right; /* Align the close button to the right */
+    font-size: 24px; /* Increase font size for better visibility */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Class to hide elements when necessary */
+.hidden {
+    display: none; /* Hide elements by setting display to none */
+}

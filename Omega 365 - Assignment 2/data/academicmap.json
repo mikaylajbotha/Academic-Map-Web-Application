@@ -1,0 +1,591 @@
+{
+    "programs": [
+        {
+            "id": "cs",
+            "name": "Computer Science",
+            "map": {
+                "Freshman Year - Fall Semester": [
+                    {"courseNum": "COSC 1336", "title": "Computer Science & Programming", "creditHours": 3},
+                    {"courseNum": "MATH 2413", "title": "Calculus I", "creditHours": 4},
+                    {"courseNum": "ENGL 1301", "title": "First Year Writing I", "creditHours": 3},
+                    {"courseNum": "CORE US History", "title": "US History", "creditHours": 3},
+                    {"courseNum": "CORE Language, Philosophy, Culture", "title": "Language, Philosophy, Culture", "creditHours": 3}
+                ],
+                "Freshman Year - Spring Semester": [
+                    {"courseNum": "COSC 1437", "title": "Introduction to Programming", "creditHours": 4},
+                    {"courseNum": "MATH 2414", "title": "Calculus II", "creditHours": 4},
+                    {"courseNum": "ENGL 1302", "title": "First Year Writing II", "creditHours": 3},
+                    {"courseNum": "CORE US History", "title": "US History", "creditHours": 3}
+                ],
+                "Sophomore Year - Fall Semester": [
+                    {"courseNum": "COSC 2425", "title": "Computer Org. & Architecture", "creditHours": 4},
+                    {"courseNum": "MATH 2305", "title": "Discrete Mathematics", "creditHours": 3},
+                    {"courseNum": "GOVT 2305", "title": "US Gov't: Congress, President, & Courts", "creditHours": 3},
+                    {"courseNum": "CORE Creative Arts", "title": "Creative Arts", "creditHours": 3},
+                    {"courseNum": "NSM Approved Natural Science Lecture", "title": "Natural Science Lecture", "creditHours": 3}
+                ],
+                "Sophomore Year - Spring Semester": [
+                    {"courseNum": "COSC 2436", "title": "Programming & Data Structures", "creditHours": 4},
+                    {"courseNum": "GOVT 2306", "title": "US & TX Constitution & Politics", "creditHours": 3},
+                    {"courseNum": "MATH 2318 or 3321", "title": "Linear Algebra or Engineering Mathematics", "creditHours": 3},
+                    {"courseNum": "CORE Social & Behavioral Sciences", "title": "Social & Behavioral Sciences", "creditHours": 3},
+                    {"courseNum": "NSM Approved Natural Science Lecture", "title": "Natural Science Lecture", "creditHours": 3}
+                ],
+                "Junior Year - Fall Semester": [
+                    {"courseNum": "COSC 3320", "title": "Algorithms & Data Structures", "creditHours": 3},
+                    {"courseNum": "COSC 3380", "title": "Database Systems", "creditHours": 3},
+                    {"courseNum": "MATH 3339", "title": "Statistics for Sciences", "creditHours": 3},
+                    {"courseNum": "CORE Writing in the Disciplines", "title": "Writing in the Disciplines", "creditHours": 3},
+                    {"courseNum": "NSM Approved Natural Science Lecture and Lab", "title": "Natural Science Lecture and Lab", "creditHours": 4}
+                ],
+                "Junior - Spring Semester": [
+                    {"courseNum": "COSC 3360", "title": "Fundamentals of Operating Systems", "creditHours": 3},
+                    {"courseNum": "COSC 4351 or 4353", "title": "Fund. of Software Engineering or Software Design", "creditHours": 3},
+                    {"courseNum": "COSC XXXX", "title": "COSC Advanced Elective", "creditHours": 3},
+                    {"courseNum": "NSM Approved Natural Science Lecture and Lab", "title": "Natural Science Lecture and Lab", "creditHours": 4}
+                ],
+                "Senior - Fall Semester": [
+                    {"courseNum": "COSC XXXX", "title": "COSC Advanced Elective", "creditHours": 3},
+                    {"courseNum": "COSC XXXX", "title": "COSC Advanced Elective", "creditHours": 3},
+                    {"courseNum": "Capstone/Free Elective", "title": "Capstone/Free Elective", "creditHours": 9}
+                ],
+                "Senior - Spring Semester": [
+                    {"courseNum": "COSC 3340", "title": "Intro. to Automata & Computability", "creditHours": 3},
+                    {"courseNum": "COSC XXXX", "title": "COSC Advanced Elective", "creditHours": 3},
+                    {"courseNum": "Capstone/Free Elective", "title": "Capstone/Free Elective", "creditHours": 5}
+                ]
+            }
+        },
+        {
+            "id": "che",
+            "name": "Chemistry",
+            "map": {
+                "Freshman Year - Fall Semester": [
+                    {"courseNum": "ENGL 1301", "title": "First Year Writing I", "creditHours": 3},
+                    {"courseNum": "CHEM 1311", "title": "Fundamentals of Chemistry I", "creditHours": 3},
+                    {"courseNum": "CHEM 1111", "title": "Fundamentals of Chemistry I Lab", "creditHours": 1},
+                    {"courseNum": "MATH 2413", "title": "Calculus I", "creditHours": 4},
+                    {"courseNum": "CORE American History", "title": "American History", "creditHours": 3},
+                    {"courseNum": "CORE Social & Behavioral Sciences", "title": "Social & Behavioral Sciences", "creditHours": 3}
+                ],
+                "Freshman Year - Spring Semester": [
+                    {"courseNum": "ENGL 1302", "title": "First Year Writing II", "creditHours": 3},
+                    {"courseNum": "CHEM 1312", "title": "Fundamentals of Chemistry II", "creditHours": 3},
+                    {"courseNum": "CHEM 1112", "title": "Fundamentals of Chemistry II Lab", "creditHours": 1},
+                    {"courseNum": "MATH 2414", "title": "Calculus II", "creditHours": 4},
+                    {"courseNum": "CORE American History", "title": "American History", "creditHours": 3}
+                ],
+                "Sophomore Year - Fall Semester": [
+                    {"courseNum": "CHEM 2323", "title": "Organic Chemistry I", "creditHours": 3},
+                    {"courseNum": "CHEM 2123", "title": "Organic Chemistry I Lab", "creditHours": 1},
+                    {"courseNum": "MATH 2415", "title": "Calculus III", "creditHours": 4},
+                    {"courseNum": "PHYS 2325", "title": "University Physics I", "creditHours": 3},
+                    {"courseNum": "CORE Writing in the Discipline", "title": "Writing in the Discipline", "creditHours": 3}
+                ],
+                "Sophomore Year - Spring Semester": [
+                    {"courseNum": "CHEM 2325", "title": "Organic Chemistry II", "creditHours": 3},
+                    {"courseNum": "CHEM 2125", "title": "Organic Chemistry II Lab", "creditHours": 1},
+                    {"courseNum": "MATH 3321", "title": "Engineering Mathematics", "creditHours": 3},
+                    {"courseNum": "PHYS 2326", "title": "University Physics II", "creditHours": 3},
+                    {"courseNum": "PHYS 2125", "title": "University Physics I Lab", "creditHours": 1}
+                ],
+                "Junior Year - Fall Semester": [
+                    {"courseNum": "CHEM 4370", "title": "Physical Chemistry I", "creditHours": 3},
+                    {"courseNum": "PHYS 2126", "title": "University Physics II Lab", "creditHours": 1},
+                    {"courseNum": "GOVT 2305", "title": "US Gov't: Congress, President, & Courts", "creditHours": 3},
+                    {"courseNum": "CORE Language, Philosophy & Culture", "title": "Language, Philosophy & Culture", "creditHours": 3},
+                    {"courseNum": "CORE Creative Arts", "title": "Creative Arts", "creditHours": 3}
+                ],
+                "Junior Year - Spring Semester": [
+                    {"courseNum": "CHEM 3369", "title": "Analytical Chemistry I", "creditHours": 3},
+                    {"courseNum": "CHEM 3119", "title": "Analytical Chemistry I Lab", "creditHours": 1},
+                    {"courseNum": "GOVT 2306", "title": "US & Texas Constitution & Politics", "creditHours": 3},
+                    {"courseNum": "NSM Capstone or Advanced Elective", "title": "Capstone or Advanced Elective", "creditHours": 3},
+                    {"courseNum": "Foreign Language (2000-level)", "title": "Foreign Language", "creditHours": 3}
+                ],
+                "Senior Year - Fall Semester": [
+                    {"courseNum": "Elective Approved Advanced Chemistry Electives", "title": "Advanced Chemistry Electives", "creditHours": 6},
+                    {"courseNum": "NSM Capstone or Elective", "title": "Capstone or Elective", "creditHours": 10}
+                ],
+                "Senior Year - Spring Semester": [
+                    {"courseNum": "Elective Approved Advanced Chemistry Electives", "title": "Advanced Chemistry Electives", "creditHours": 5},
+                    {"courseNum": "NSM Capstone or Elective", "title": "Capstone or Elective", "creditHours": 11}
+                ]
+            }
+        },
+
+        {
+            "id": "bioe",
+            "name": "Biomedical Engineering",
+            "map": {
+                "Freshman Year - Fall Semester": [
+                    {"courseNum": "ENGI 1100", "title": "Introduction to Engineering", "creditHours": 1},
+                    {"courseNum": "BIOL 1306", "title": "Biology for Science Majors I", "creditHours": 3},
+                    {"courseNum": "BIOL 1106", "title": "Biology for Science Majors I (lab)", "creditHours": 1},
+                    {"courseNum": "ENGL 1301", "title": "First Year Writing I", "creditHours": 3},
+                    {"courseNum": "CHEM 1311", "title": "Fundamentals of Chemistry", "creditHours": 3},
+                    {"courseNum": "CHEM 1111", "title": "Fundamentals of Chemistry Lab", "creditHours": 1},
+                    {"courseNum": "MATH 2413", "title": "Calculus I", "creditHours": 4}
+                ],
+                "Freshman Year - Spring Semester": [
+                    {"courseNum": "ENGI 1331", "title": "Computing for Engineers", "creditHours": 3},
+                    {"courseNum": "BIOL 1307", "title": "Biology for Science Majors II", "creditHours": 3},
+                    {"courseNum": "BIOL 1107", "title": "Biology for Science Majors II (lab)", "creditHours": 1},
+                    {"courseNum": "PHYS 2325", "title": "University Physics I", "creditHours": 3},
+                    {"courseNum": "CHEM 1312", "title": "Fundamentals of Chemistry II", "creditHours": 3},
+                    {"courseNum": "CHEM 1112", "title": "Fundamentals of Chemistry Lab II", "creditHours": 1},
+                    {"courseNum": "MATH 2414", "title": "Calculus II", "creditHours": 4}
+                ],
+                "Sophomore Year - Fall Semester": [
+                    {"courseNum": "BIOE 2100", "title": "Intro to Biomedical Engineering", "creditHours": 1},
+                    {"courseNum": "CHEM 2323", "title": "Organic Chemistry I", "creditHours": 3},
+                    {"courseNum": "CHEM 2123", "title": "Organic Chemistry Lab I", "creditHours": 1},
+                    {"courseNum": "MATH 2415", "title": "Calculus III", "creditHours": 4},
+                    {"courseNum": "PHYS 2326", "title": "University Physics II", "creditHours": 3},
+                    {"courseNum": "ENGL 1302", "title": "First Year Writing II", "creditHours": 3},
+                    {"courseNum": "CORE Creative Arts", "title": "Creative Arts", "creditHours": 3}
+                ],
+                "Sophomore Year - Spring Semester": [
+                    {"courseNum": "ECE 2201", "title": "Circuit Analysis I", "creditHours": 2},
+                    {"courseNum": "BIOE 2331", "title": "Biomedical Processes", "creditHours": 3},
+                    {"courseNum": "BCHS 3304", "title": "General Biochemistry I", "creditHours": 3},
+                    {"courseNum": "MATH 3321", "title": "Engineering Mathematics", "creditHours": 3},
+                    {"courseNum": "CORE Social and Behavioral Sciences", "title": "Social and Behavioral Sciences", "creditHours": 3},
+                    {"courseNum": "CORE Creative Arts", "title": "Creative Arts", "creditHours": 3}
+                ],
+                "Junior Year - Fall Semester": [
+                    {"courseNum": "GOVT 2306", "title": "U.S. & TX Constitution & Politics", "creditHours": 3},
+                    {"courseNum": "MECE 3400", "title": "Intro to Mechanics", "creditHours": 4},
+                    {"courseNum": "INDE 2333", "title": "Engineering Statistics I", "creditHours": 3},
+                    {"courseNum": "ENGI 2304", "title": "Technical Communications", "creditHours": 3},
+                    {"courseNum": "HIST 1301", "title": "The United States to 1877", "creditHours": 3},
+                    {"courseNum": "HIST 1302", "title": "The United States Since 1877", "creditHours": 3}
+                ],
+                
+                "Junior Year - Spring Semester": [
+                    {"courseNum": "BIOE 3341", "title": "Biothermodynamics", "creditHours": 3},
+                    {"courseNum": "BIOE 4302", "title": "Numerical Analysis for BIOE", "creditHours": 3},
+                    {"courseNum": "BIOE Elect", "title": "BIOE Technical Elective", "creditHours": 3},
+                    {"courseNum": "BIOE 3340", "title": "Quantitative Physiology", "creditHours": 3},
+                    {"courseNum": "BIOE 3140", "title": "Quantitative Physiology Lab", "creditHours": 1}
+                ],
+                "Senior Year - Fall Semester": [
+                    {"courseNum": "BIOE 4335", "title": "Capstone Design I", "creditHours": 3},
+                    {"courseNum": "BIOE 4315", "title": "Intro to Bioinstrumentation", "creditHours": 3},
+                    {"courseNum": "BIOE 4115", "title": "Intro to Bioinstrumentation Lab", "creditHours": 1},
+                    {"courseNum": "BIOE Elect", "title": "BIOE Technical Elective", "creditHours": 3},
+                    {"courseNum": "BIOE Elect", "title": "BIOE Technical Elective", "creditHours": 3},
+                    {"courseNum": "GOVT 2305", "title": "U.S. Government", "creditHours": 3}
+                ],
+                "Senior Year - Spring Semester": [
+                    {"courseNum": "BIOE 4336", "title": "Capstone Design II", "creditHours": 3},
+                    {"courseNum": "BIOE 4350", "title": "Genomic and Proteomic Engineering", "creditHours": 3},
+                    {"courseNum": "BIOE 4150", "title": "Genomic and Proteomic Engineering Lab", "creditHours": 1},
+                    {"courseNum": "BIOE Elect", "title": "BIOE Technical Elective", "creditHours": 3},
+                    {"courseNum": "BIOE Elect", "title": "BIOE Technical Elective", "creditHours": 3},
+                    {"courseNum": "CORE Language, Philosophy & Culture", "title": "Language, Philosophy & Culture", "creditHours": 3}
+                ]
+            }
+        },
+        
+        {
+            "id": "cive",
+            "name": "Civil Engineering",
+            "map": {
+                "Freshman Year - Fall Semester": [
+                    {"courseNum": "CHEM 1311", "title": "Fundamentals of Chemistry", "creditHours": 3},
+                    {"courseNum": "CHEM 1111", "title": "Fundamentals of Chemistry Lab", "creditHours": 1},
+                    {"courseNum": "ENGI 1100", "title": "Introduction to Engineering", "creditHours": 1},
+                    {"courseNum": "ENGL 1301", "title": "First Year Writing I", "creditHours": 3},
+                    {"courseNum": "MATH 2413", "title": "Calculus I", "creditHours": 4},
+                    {"courseNum": "GOVT 2306", "title": "US & Texas Constitution and Politics", "creditHours": 3}
+                ],
+                "Freshman Year - Spring Semester": [
+                    {"courseNum": "CHEM 1312", "title": "Fundamentals of Chemistry II", "creditHours": 3},
+                    {"courseNum": "CHEM 1112", "title": "Fundamentals of Chemistry II Lab", "creditHours": 1},
+                    {"courseNum": "ENGI 1331", "title": "Computing for Engineers", "creditHours": 3},
+                    {"courseNum": "ENGL 1302", "title": "First Year Writing II", "creditHours": 3},
+                    {"courseNum": "MATH 2414", "title": "Calculus II", "creditHours": 4},
+                    {"courseNum": "PHYS 2325", "title": "University Physics I", "creditHours": 3}
+                ],
+                "Sophomore Year - Fall Semester": [
+                    {"courseNum": "ENGR 1304", "title": "Engineering Graphics", "creditHours": 3},
+                    {"courseNum": "ENGR 2301", "title": "Mechanics I (Statics)", "creditHours": 3},
+                    {"courseNum": "MATH 2415", "title": "Calculus III", "creditHours": 4},
+                    {"courseNum": "PHYS 2326", "title": "University Physics II", "creditHours": 3},
+                    {"courseNum": "Science ELEC", "title": "Approved Basic Science Elective", "creditHours": 3},
+                    {"courseNum": "GOVT 2305", "title": "US Government: Congress, President & Courts", "creditHours": 3}
+                ],
+                "Sophomore Year - Spring Semester": [
+                    {"courseNum": "CIVE 2332", "title": "Mechanics of Solids", "creditHours": 3},
+                    {"courseNum": "ENGI 2304", "title": "Technical Communications", "creditHours": 3},
+                    {"courseNum": "INDE 2333", "title": "Engineering Statistics I", "creditHours": 3},
+                    {"courseNum": "MECE 3336", "title": "Mechanics II (Dynamics)", "creditHours": 3},
+                    {"courseNum": "MATH 3321", "title": "Engineering Mathematics", "creditHours": 3},
+                    {"courseNum": "CIVE 2332", "title": "Mechanics of Solids", "creditHours": 3}
+                ],
+                "Junior Year - Fall Semester": [
+                    {"courseNum": "CIVE 3331", "title": "Environmental Engineering", "creditHours": 3},
+                    {"courseNum": "CIVE 3332", "title": "Engineering Materials", "creditHours": 3},
+                    {"courseNum": "CIVE 3337", "title": "Structural Analysis", "creditHours": 3},
+                    {"courseNum": "CIVE 3339", "title": "Geotechnical Engineering", "creditHours": 3},
+                    {"courseNum": "MECE 2334", "title": "Thermodynamics", "creditHours": 3},
+                    {"courseNum": "CORE Social & Behavioral Science", "title": "Social & Behavioral Sciences", "creditHours": 3}
+                ],
+                "Junior Year - Spring Semester": [
+                    {"courseNum": "CIVE 3434", "title": "Fluid Mechanics & Hydraulic Engineering", "creditHours": 4},
+                    {"courseNum": "CIVE 4363", "title": "Concrete Design", "creditHours": 3},
+                    {"courseNum": "CIVE 4369", "title": "Foundation Engineering", "creditHours": 3},
+                    {"courseNum": "CIVE ELEC", "title": "Civil Engineering Elective", "creditHours": 3},
+                    {"courseNum": "CIVE ELEC", "title": "Civil Engineering Elective", "creditHours": 3}
+                ],
+                "Senior Year - Fall Semester": [
+                    {"courseNum": "CIVE 4311", "title": "Professional Practice in Civil Engineering", "creditHours": 3},
+                    {"courseNum": "CIVE 4332", "title": "Hydrology", "creditHours": 3},
+                    {"courseNum": "CIVE 4333", "title": "Water & Wastewater Treatment", "creditHours": 3},
+                    {"courseNum": "HIST 1301", "title": "The US to 1877", "creditHours": 3},
+                    {"courseNum": "CORE Language, Philosophy & Culture", "title": "Language, Philosophy & Culture", "creditHours": 3}
+                ],
+                "Senior Year - Spring Semester": [
+                    {"courseNum": "CIVE 4312", "title": "Civil Engineering Design Project", "creditHours": 3},
+                    {"courseNum": "CIVE ELEC", "title": "Civil Engineering Elective", "creditHours": 3},
+                    {"courseNum": "CIVE ELEC", "title": "Civil Engineering Elective", "creditHours": 3},
+                    {"courseNum": "HIST 1302", "title": "The US Since 1877", "creditHours": 3},
+                    {"courseNum": "CORE Creative Arts", "title": "Creative Arts", "creditHours": 3}
+                ]
+            }
+        },
+        
+        {
+            "id": "cpe",
+            "name": "Computer Engineering",
+            "map": {
+                "Freshman Year - Fall Semester": [
+                    {"courseNum": "CHEM 1111", "title": "Fundamentals of Chemistry Lab", "creditHours": 1},
+                    {"courseNum": "CHEM 1311", "title": "Fundamentals of Chemistry", "creditHours": 3},
+                    {"courseNum": "ENGI 1100", "title": "Introduction to Engineering", "creditHours": 1},
+                    {"courseNum": "ENGL 1301", "title": "First Year Writing I", "creditHours": 3},
+                    {"courseNum": "HIST 1301", "title": "The United States To 1877", "creditHours": 3},
+                    {"courseNum": "MATH 2413", "title": "Calculus I", "creditHours": 4}
+                ],
+                "Freshman Year - Spring Semester": [
+                    {"courseNum": "ENGI 1331", "title": "Computing for Engineers", "creditHours": 3},
+                    {"courseNum": "ENGL 1302", "title": "First Year Writing II", "creditHours": 3},
+                    {"courseNum": "HIST 1302", "title": "The United States Since 1877", "creditHours": 3},
+                    {"courseNum": "MATH 2414", "title": "Calculus II", "creditHours": 4},
+                    {"courseNum": "PHYS 2325", "title": "University Physics I", "creditHours": 3},
+                    {"courseNum": "PHYS 2125", "title": "University Physics Laboratory I", "creditHours": 1}
+                ],
+                "Sophomore Year - Fall Semester": [
+                    {"courseNum": "ECE 2201", "title": "Circuit Analysis I", "creditHours": 2},
+                    {"courseNum": "MATH 2415", "title": "Calculus III", "creditHours": 4},
+                    {"courseNum": "MATH 3321", "title": "Engineering Mathematics", "creditHours": 3},
+                    {"courseNum": "PHYS 2326", "title": "University Physics II", "creditHours": 3},
+                    {"courseNum": "PHYS 2126", "title": "University Physics Laboratory II", "creditHours": 1},
+                    {"courseNum": "GOVT 2306", "title": "U.S. & TX Constitution/Politics", "creditHours": 3}
+                ],
+                "Sophomore Year - Spring Semester": [
+                    {"courseNum": "ENGI 2304", "title": "Technical Communications", "creditHours": 3},
+                    {"courseNum": "ECE 2202", "title": "Circuit Analysis II", "creditHours": 2},
+                    {"courseNum": "ECE 2100", "title": "Circuit Analysis Laboratory", "creditHours": 1},
+                    {"courseNum": "ECE 3331", "title": "Programming Applications in ECE", "creditHours": 3},
+                    {"courseNum": "ECE 3441", "title": "Digital Logic Design", "creditHours": 4},
+                    {"courseNum": "CORE Creative Arts", "title": "Creative Arts", "creditHours": 3}
+                ],
+                "Junior Year - Fall Semester": [
+                    {"courseNum": "COSC 1437", "title": "Intro to Programming", "creditHours": 4},
+                    {"courseNum": "ECE 3155", "title": "Electronics Lab", "creditHours": 1},
+                    {"courseNum": "ECE 3355", "title": "Electronics", "creditHours": 3},
+                    {"courseNum": "ECE 3436", "title": "Microprocessors", "creditHours": 4},
+                    {"courseNum": "ECE 3337", "title": "Signal & System Analysis", "creditHours": 3},
+                    {"courseNum": "ECE 3317", "title": "Applied EM Waves", "creditHours": 3}
+                ],
+                "Junior Year - Spring Semester": [
+                    {"courseNum": "MATH 2305", "title": "Discrete Math", "creditHours": 3},
+                    {"courseNum": "ECE 5367", "title": "Intro to Computer Architecture Design", "creditHours": 3},
+                    {"courseNum": "ECE Elect/Lab", "title": "ECE Elective and Lab", "creditHours": 4},
+                    {"courseNum": "INDE 2333", "title": "Engineering Statistics I", "creditHours": 3},
+                    {"courseNum": "ECON 2302", "title": "Principles of Microeconomics", "creditHours": 3}
+                ],
+                "Senior Year - Fall Semester": [
+                    {"courseNum": "COSC 2436", "title": "Programming and Data Structures", "creditHours": 4},
+                    {"courseNum": "ECE 4335", "title": "ECE Design I", "creditHours": 3},
+                    {"courseNum": "ECE 3457", "title": "Digital Electronics", "creditHours": 4},
+                    {"courseNum": "CpE Elect/Lab", "title": "Approved CpE Elective and Lab", "creditHours": 4},
+                    {"courseNum": "CORE Language, Philosophy & Culture", "title": "Language, Philosophy & Culture", "creditHours": 3}
+                ],
+                "Senior Year - Spring Semester": [
+                    {"courseNum": "ECE 4336", "title": "ECE Design II", "creditHours": 3},
+                    {"courseNum": "CpE Elect/Lab", "title": "Approved CpE Elective and Lab", "creditHours": 4},
+                    {"courseNum": "COSC 4351", "title": "Fundamentals of Software Engineering", "creditHours": 3},
+                    {"courseNum": "CORE Creative Arts", "title": "Creative Arts", "creditHours": 3}
+                ]
+            }
+        },
+
+        {
+            "id": "ee",
+            "name": "Electrical Engineering",
+            "map": {
+                "Freshman Year - Fall Semester": [
+                    {"courseNum": "CHEM 1111", "title": "Fundamentals of Chemistry Lab", "creditHours": 1},
+                    {"courseNum": "CHEM 1311", "title": "Fundamentals of Chemistry", "creditHours": 3},
+                    {"courseNum": "ENGI 1100", "title": "Introduction To Engineering", "creditHours": 1},
+                    {"courseNum": "ENGL 1301", "title": "First Year Writing I", "creditHours": 3},
+                    {"courseNum": "HIST 1301", "title": "The United States To 1877", "creditHours": 3},
+                    {"courseNum": "MATH 2413", "title": "Calculus I", "creditHours": 4}
+                ],
+                "Freshman Year - Spring Semester": [
+                    {"courseNum": "ENGI 1331", "title": "Computing for Engineers", "creditHours": 3},
+                    {"courseNum": "ENGL 1302", "title": "First Year Writing II", "creditHours": 3},
+                    {"courseNum": "HIST 1302", "title": "The United States Since 1877", "creditHours": 3},
+                    {"courseNum": "MATH 2414", "title": "Calculus II", "creditHours": 4},
+                    {"courseNum": "PHYS 2325", "title": "University Physics I", "creditHours": 3},
+                    {"courseNum": "PHYS 2125", "title": "University Physics Laboratory I", "creditHours": 1}
+                ],
+                "Sophomore Year - Fall Semester": [
+                    {"courseNum": "ECE 2201", "title": "Circuit Analysis I", "creditHours": 2},
+                    {"courseNum": "MATH 2415", "title": "Calculus III", "creditHours": 4},
+                    {"courseNum": "MATH 3321", "title": "Engineering Mathematics", "creditHours": 3},
+                    {"courseNum": "PHYS 2326", "title": "University Physics II", "creditHours": 3},
+                    {"courseNum": "PHYS 2126", "title": "University Physics Laboratory II", "creditHours": 1},
+                    {"courseNum": "GOVT 2306", "title": "U.S. & TX Constitution/Politics", "creditHours": 3}
+                ],
+                "Sophomore Year - Spring Semester": [
+                    {"courseNum": "ENGI 2304", "title": "Technical Communications", "creditHours": 3},
+                    {"courseNum": "ECE 2202", "title": "Circuit Analysis II", "creditHours": 2},
+                    {"courseNum": "ECE 2100", "title": "Circuit Analysis Laboratory", "creditHours": 1},
+                    {"courseNum": "ECE 3331", "title": "Programming Applications in ECE", "creditHours": 3},
+                    {"courseNum": "ECE 3441", "title": "Digital Logic Design", "creditHours": 4},
+                    {"courseNum": "CORE Creative Arts", "title": "Creative Arts", "creditHours": 3}
+                ],
+                "Junior Year - Fall Semester": [
+                    {"courseNum": "ECE 3355", "title": "Electronics", "creditHours": 3},
+                    {"courseNum": "ECE 3155", "title": "Electronics Laboratory", "creditHours": 1},
+                    {"courseNum": "ECE 3436", "title": "Microprocessors", "creditHours": 4},
+                    {"courseNum": "ECE 3337", "title": "Signals & Systems Analysis", "creditHours": 3},
+                    {"courseNum": "INDE 2333", "title": "Engineering Statistics I", "creditHours": 3},
+                    {"courseNum": "ECE 3317", "title": "Applied EM Waves", "creditHours": 3}
+                ],
+                "Junior Year - Spring Semester": [
+                    {"courseNum": "CONC Elect", "title": "Concentration Elective", "creditHours": 3},
+                    {"courseNum": "ECE 3340", "title": "Numerical Methods", "creditHours": 3},
+                    {"courseNum": "ECE Elect", "title": "ECE Elective", "creditHours": 3},
+                    {"courseNum": "ECE Elect Lab", "title": "ECE Elective Lab", "creditHours": 1},
+                    {"courseNum": "ECON 2302", "title": "Principles of Microeconomics", "creditHours": 3}
+                ],
+                "Senior Year - Fall Semester": [
+                    {"courseNum": "ECE 4335", "title": "Systems Design I", "creditHours": 3},
+                    {"courseNum": "CONC Elect", "title": "Concentration Elective", "creditHours": 3},
+                    {"courseNum": "CONC Elect", "title": "Concentration Elective", "creditHours": 3},
+                    {"courseNum": "ECE Elect Lab", "title": "Elective Lab", "creditHours": 1},
+                    {"courseNum": "Tech Elective", "title": "Technical Elective", "creditHours": 3},
+                    {"courseNum": "GOVT 2305", "title": "U.S. Government", "creditHours": 3}
+                ],
+                "Senior Year - Spring Semester": [
+                    {"courseNum": "ECE 4336", "title": "Systems Design II", "creditHours": 3},
+                    {"courseNum": "CONC Elect", "title": "Concentration Elective", "creditHours": 3},
+                    {"courseNum": "CONC Elect", "title": "Concentration Elective", "creditHours": 3},
+                    {"courseNum": "ECE Elect Lab", "title": "Elective Lab", "creditHours": 1},
+                    {"courseNum": "CORE Language, Philosophy, & Culture", "title": "Language, Philosophy, & Culture", "creditHours": 3}
+                ]
+            }
+        },
+        {
+            "id": "Environmental Design, B.S. ",
+            "name": "Environmental Design, B.S.",
+            "map": {
+                "Freshman Year - Fall Semester": [
+                    {"courseNum": "ARCH 1358", "title": "Intro to Design Culture", "creditHours": 3},
+                    {"courseNum": "ARCH 1210", "title": "Intro to Design Media", "creditHours": 2},
+                    {"courseNum": "ARCH 1500", "title": "Design Studio I", "creditHours": 5},
+                    {"courseNum": "ENGL 1301", "title": "Freshman Composition I", "creditHours": 3},
+                    {"courseNum": "MATH 1314", "title": "College Algebra", "creditHours": 3},
+                    {"courseNum": "HIST 1377", "title": "The United States To 1877", "creditHours": 3}
+                ],
+                "Freshman Year - Spring Semester": [
+                    {"courseNum": "ARCH 1501", "title": "Design Studio II", "creditHours": 5},
+                    {"courseNum": "ENGL 1302", "title": "Freshman Composition II", "creditHours": 3},
+                    {"courseNum": "MATH 2312", "title": "Pre-calculus", "creditHours": 3},
+                    {"courseNum": "HIST 1378", "title": "The United States Since 1877", "creditHours": 3},
+                    {"courseNum": "ARCH 1210", "title": "Intro to Design Media", "creditHours": 2}
+                ],
+                "Sophomore Year - Fall Semester": [
+                    {"courseNum": "ARCH 2500", "title": "Design Studio III", "creditHours": 5},
+                    {"courseNum": "ARCH 2327", "title": "Technology 1", "creditHours": 3},
+                    {"courseNum": "ARCH 2350", "title": "History of the Built Environment I", "creditHours": 3},
+                    {"courseNum": "PHYS 1301", "title": "Introduction to General Physics I", "creditHours": 3},
+                    {"courseNum": "CORE Language Philosophy & Culture", "title": "Language Philosophy & Culture", "creditHours": 3}
+                ],
+                "Sophomore Year - Spring Semester": [
+                    {"courseNum": "ARCH 2501", "title": "Design Studio IV", "creditHours": 5},
+                    {"courseNum": "ARCH 2328", "title": "Technology 2", "creditHours": 3},
+                    {"courseNum": "ARCH 2351", "title": "History of the Built Environment II", "creditHours": 3},
+                    {"courseNum": "PHYS 1302", "title": "Introduction to General Physics II", "creditHours": 3},
+                    {"courseNum": "ARCH Architecture Elective", "title": "Architecture Elective", "creditHours": 3}
+                ],
+                "Junior Year - Fall Semester": [
+                    {"courseNum": "ARCH 3500", "title": "Design Studio V", "creditHours": 5},
+                    {"courseNum": "ARCH 3327", "title": "Technology 3", "creditHours": 3},
+                    {"courseNum": "ARCH 3230", "title": "Programming", "creditHours": 2},
+                    {"courseNum": "GOVT 2306", "title": "U.S. & Texas Constitution & Politics", "creditHours": 3},
+                    {"courseNum": "ARCH Architecture History Elective", "title": "Architecture History Elective", "creditHours": 3}
+                ],
+                "Junior Year - Spring Semester": [
+                    {"courseNum": "ARCH 3501", "title": "Design Studio VI", "creditHours": 5},
+                    {"courseNum": "ARCH 3328", "title": "Technology 4", "creditHours": 3},
+                    {"courseNum": "GOVT 2305", "title": "U.S. Government: Congress, President & Courts", "creditHours": 3},
+                    {"courseNum": "CORE Social & Behavioral Science", "title": "Social & Behavioral Science", "creditHours": 3},
+                    {"courseNum": "Elective Approved Elective", "title": "Approved Elective", "creditHours": 3}
+                ],
+                "Senior Year - Fall Semester": [
+                    {"courseNum": "ARCH 4373", "title": "Urban Environments", "creditHours": 3},
+                    {"courseNum": "ARCH Architecture Elective", "title": "Architecture Elective", "creditHours": 3},
+                    {"courseNum": "ARCH Architecture History Elective", "title": "Architecture History Elective", "creditHours": 3},
+                    {"courseNum": "CORE WID Elective", "title": "Writing in the Disciplines Elective", "creditHours": 3},
+                    {"courseNum": "Elective Elective", "title": "Elective", "creditHours": 3}
+                ],
+                "Senior Year - Spring Semester": [
+                    {"courseNum": "ARCH Architecture Elective", "title": "Architecture Elective", "creditHours": 3},
+                    {"courseNum": "Elective Interdisciplinary Elective", "title": "Interdisciplinary Elective", "creditHours": 3},
+                    {"courseNum": "Elective Elective", "title": "Elective", "creditHours": 3},
+                    {"courseNum": "Elective Elective", "title": "Elective", "creditHours": 4}
+                ]
+            }
+        },
+
+        {
+            "id": "Industrial Design, B.S. ",
+            "name": "Industrial Design, B.S.",
+            "map": {
+                "Freshman Year - Fall Semester": [
+                    {"courseNum": "ARCH 1358", "title": "Intro to Design Culture", "creditHours": 3},
+                    {"courseNum": "ARCH 1500", "title": "Design Studio I", "creditHours": 5},
+                    {"courseNum": "ENGL 1301", "title": "Freshman Composition I", "creditHours": 3},
+                    {"courseNum": "MATH 1314", "title": "College Algebra", "creditHours": 3},
+                    {"courseNum": "INDS 1360", "title": "Visual Thinking", "creditHours": 3}
+                ],
+                "Freshman Year - Spring Semester": [
+                    {"courseNum": "INDS 2170", "title": "Digital Sketch Techniques I", "creditHours": 1},
+                    {"courseNum": "INDS 1501", "title": "Design Studio II", "creditHours": 5},
+                    {"courseNum": "ENGL 1302", "title": "Freshman Composition II", "creditHours": 3},
+                    {"courseNum": "MATH 2312", "title": "Pre-calculus", "creditHours": 3},
+                    {"courseNum": "HIST 1377", "title": "US History To 1877", "creditHours": 3}
+                ],
+                "Sophomore Year - Fall Semester": [
+                    {"courseNum": "INDS 2500", "title": "Design Studio III", "creditHours": 5},
+                    {"courseNum": "INDS 2340", "title": "Visual Communication", "creditHours": 3},
+                    {"courseNum": "INDS 2355", "title": "Design History I", "creditHours": 3},
+                    {"courseNum": "INDS 2260", "title": "Materials + Fabrication Methods I", "creditHours": 2},
+                    {"courseNum": "PHYS 1301", "title": "Introduction to General Physics I", "creditHours": 3}
+                ],
+                "Sophomore Year - Spring Semester": [
+                    {"courseNum": "INDS 2501", "title": "Design Studio IV", "creditHours": 5},
+                    {"courseNum": "INDS 2341", "title": "Computer Aided Industrial Design I", "creditHours": 3},
+                    {"courseNum": "INDS 2356", "title": "Design History II", "creditHours": 3},
+                    {"courseNum": "PHYS 1302", "title": "Introduction to General Physics II", "creditHours": 3},
+                    {"courseNum": "INDS 2160", "title": "Materials + Fabrication Methods II", "creditHours": 1},
+                    {"courseNum": "INDS 2270", "title": "Digital Sketching Techniques II", "creditHours": 2},
+                    {"courseNum": "INDS 2165", "title": "Design Research Methods I", "creditHours": 1}
+                ],
+                "Junior Year - Fall Semester": [
+                    {"courseNum": "INDS 3500", "title": "Design Studio V", "creditHours": 5},
+                    {"courseNum": "INDS 3340", "title": "Computer Aided Industrial Design II", "creditHours": 3},
+                    {"courseNum": "INDS 3360", "title": "Human Factors", "creditHours": 3},
+                    {"courseNum": "HIST 1378", "title": "US History Since 1877", "creditHours": 3},
+                    {"courseNum": "INDS 3160", "title": "Design Issues I", "creditHours": 1},
+                    {"courseNum": "INDS 4365", "title": "Pre-Internship", "creditHours": 3}
+                ],
+                "Junior Year - Spring Semester": [
+                    {"courseNum": "INDS 3501", "title": "Design Studio VI", "creditHours": 5},
+                    {"courseNum": "INDS 3265", "title": "Design Research Methods II", "creditHours": 2},
+                    {"courseNum": "Elective Approved Elective", "title": "Approved Elective", "creditHours": 3},
+                    {"courseNum": "GOVT 2306", "title": "US & Texas Constitution & Politics", "creditHours": 3},
+                    {"courseNum": "CORE Social and Behavioral Science", "title": "Social and Behavioral Science", "creditHours": 3}
+                ],
+                "Summer Semester": [
+                    {"courseNum": "INDS 4380", "title": "Internship", "creditHours": 3}
+                ],
+                "Senior Year - Fall Semester": [
+                    {"courseNum": "INDS 4500", "title": "Design Studio VII or Arch (Int. Dis. Studio)", "creditHours": 5},
+                    {"courseNum": "INDS 4260", "title": "Design Issues II", "creditHours": 2},
+                    {"courseNum": "INDS Elective", "title": "Industrial Design Elective", "creditHours": 3},
+                    {"courseNum": "CORE Language, Philosophy & Culture", "title": "Language, Philosophy & Culture", "creditHours": 3},
+                    {"courseNum": "GOVT 2305", "title": "US Government: Congress, President, Courts", "creditHours": 3}
+                ],
+                "Senior Year - Spring Semester": [
+                    {"courseNum": "INDS 4501", "title": "Design Studio VIII", "creditHours": 5},
+                    {"courseNum": "Elective Approved Elective", "title": "Approved Elective", "creditHours": 2},
+                    {"courseNum": "INDS Elective", "title": "Industrial Design Elective", "creditHours": 3},
+                    {"courseNum": "CORE WID Core Curriculum Elective", "title": "Writing in the Disciplines Core Curriculum Elective", "creditHours": 3}
+                ]
+            }
+        },
+
+        {
+            "id": "Interior Architecture, B.S. ",
+            "name": "Interior Architecture, B.S.",
+            "map": {
+                "Freshman Year - Fall Semester": [
+                    {"courseNum": "ARCH 1358", "title": "Intro to Design Culture", "creditHours": 3},
+                    {"courseNum": "ARCH 1500", "title": "Design Studio I", "creditHours": 5},
+                    {"courseNum": "ENGL 1301", "title": "Freshman Composition I", "creditHours": 3},
+                    {"courseNum": "MATH 1314", "title": "College Algebra", "creditHours": 3},
+                    {"courseNum": "HIST 1377", "title": "US History To 1877", "creditHours": 3}
+                ],
+                "Freshman Year - Spring Semester": [
+                    {"courseNum": "ARCH 1210", "title": "Intro to Design Media", "creditHours": 2},
+                    {"courseNum": "ARCH 1501", "title": "ARC/IntArc Studio II", "creditHours": 5},
+                    {"courseNum": "ENGL 1302", "title": "Freshman Composition II", "creditHours": 3},
+                    {"courseNum": "MATH 2312", "title": "Pre-calculus", "creditHours": 3},
+                    {"courseNum": "HIST 1378", "title": "US History Since 1877", "creditHours": 3}
+                ],
+                "Sophomore Year - Fall Semester": [
+                    {"courseNum": "ARCH 2500", "title": "ARC/IntArc Studio III", "creditHours": 5},
+                    {"courseNum": "ARCH 2327", "title": "Technology 1", "creditHours": 3},
+                    {"courseNum": "ARCH 2350", "title": "History of the Built Environment I", "creditHours": 3},
+                    {"courseNum": "PHYS 1301", "title": "Introduction to General Physics I", "creditHours": 3},
+                    {"courseNum": "CORE Language Philosophy & Culture", "title": "Language Philosophy & Culture", "creditHours": 3}
+                ],
+                "Sophomore Year - Spring Semester": [
+                    {"courseNum": "INAR 2501", "title": "Design Studio IV", "creditHours": 5},
+                    {"courseNum": "ARCH 2328", "title": "Technology 2", "creditHours": 3},
+                    {"courseNum": "ARCH 2351", "title": "History of the Built Environment II", "creditHours": 3},
+                    {"courseNum": "Elective Approved Elective", "title": "Approved Elective", "creditHours": 3},
+                    {"courseNum": "PHYS 1302", "title": "Introduction to General Physics II", "creditHours": 3},
+                    {"courseNum": "INAR 2160", "title": "Materials + Fabrication Methods II", "creditHours": 1}
+                ],
+                "Junior Year - Fall Semester": [
+                    {"courseNum": "INAR 3500", "title": "Design Studio V", "creditHours": 5},
+                    {"courseNum": "INAR 3300", "title": "History of Interior Architecture", "creditHours": 3},
+                    {"courseNum": "INAR 3360", "title": "Human Factors", "creditHours": 3},
+                    {"courseNum": "ARCH 3230", "title": "Programming", "creditHours": 2},
+                    {"courseNum": "GOVT 2306", "title": "US & Texas Constitution & Politics", "creditHours": 3}
+                ],
+                "Junior Year - Spring Semester": [
+                    {"courseNum": "INAR 3501", "title": "Design Studio VI", "creditHours": 5},
+                    {"courseNum": "INAR 3310", "title": "Materials & Methods", "creditHours": 3},
+                    {"courseNum": "INAR Interior Architecture Elective", "title": "Interior Architecture Elective", "creditHours": 3},
+                    {"courseNum": "GOVT 2305", "title": "US Government: Congress, President, Courts", "creditHours": 3},
+                    {"courseNum": "CORE Social and Behavioral Science", "title": "Social and Behavioral Science", "creditHours": 3},
+                    {"courseNum": "Elective Approved Elective", "title": "Approved Elective", "creditHours": 3}
+                ],
+                "Senior Year - Fall Semester": [
+                    {"courseNum": "INAR 4500", "title": "Design Studio VII or ARCH 5500 (Int. Dis. Studio)", "creditHours": 5},
+                    {"courseNum": "INAR 4393", "title": "Interior Architecture Thesis Prep", "creditHours": 3},
+                    {"courseNum": "CORE Social and Behavioral Science", "title": "Social and Behavioral Science", "creditHours": 3},
+                    {"courseNum": "Elective Interdisciplinary Elective", "title": "Interdisciplinary Elective", "creditHours": 3},
+                    {"courseNum": "Elective Elective", "title": "Elective", "creditHours": 4},
+                    {"courseNum": "CORE WID Core Curriculum Elective", "title": "Writing in the Disciplines Core Curriculum Elective", "creditHours": 3}
+                ],
+                "Senior Year - Spring Semester": [
+                    {"courseNum": "INAR 4501", "title": "Design Studio VIII", "creditHours": 5},
+                    {"courseNum": "INAR 4360", "title": "Practice of Interior Architecture", "creditHours": 3},
+                    {"courseNum": "CORE WID Core Curriculum Elective", "title": "Writing in the Disciplines Core Curriculum Elective", "creditHours": 3},
+                    {"courseNum": "Elective Approved Elective", "title": "Approved Elective", "creditHours": 3},
+                    {"courseNum": "Integration Approved Integrative Course", "title": "Approved Integrative Course", "creditHours": 3}
+                ]
+            }
+        }
+    ]
+}

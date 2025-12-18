@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Map</title>
+
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Link to external JavaScript file with defer to load after HTML parsing -->
+    <script src="js/app.js" defer></script> 
+
+    <!-- Internal CSS for quick styling overrides or specific elements -->
+    <style>
+        /* Style for semester/year sections */
+        .semester-year { 
+            margin-bottom: 20px; 
+        }
+
+        /* Style for various buttons to add spacing */
+        .edit-courses-btn, .add-course-btn, .remove-course-btn, .save-btn, .done-btn { 
+            margin-right: 10px; 
+        }
+
+        /* Utility class to hide elements */
+        .hidden { 
+            display: none; 
+        }
+
+        /* Style for tables showing courses */
+        .courses-table { 
+            margin-top: 10px;
+            border-collapse: collapse; 
+            width: 100%;  
+        }
+
+        /* Style for table headers and cells */
+        .courses-table th, .courses-table td { 
+            border: 1px solid #ddd; 
+            padding: 8px; 
+            text-align: left; 
+        }
+
+        /* Header background color */
+        .courses-table th { 
+            background-color: #f2f2f2; 
+        }
+
+        /* Highlight total semester hours */
+        .total-semester-hours { 
+            font-weight: bold; 
+        }
+
+        /* Additional button spacing for search/add/cancel buttons */
+        .search-course-btn, .add-course-confirm-btn, .cancel-add-course-btn { 
+            margin-right: 5px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header section with title and university logo -->
+        <header>
+            <div class="title-section">
+                <h1>College of Natural Sciences & Mathematics</h1> 
+                <h2>Bachelor of Science Academic Map</h2> 
+                <img src="images/uh.png" alt="University Logo"> 
+            </div>
+        </header>
+
+        <!-- Main content of the page -->
+        <main>
+            <h1 class="academic-map-title">Academic Map</h1> 
+
+            <!-- Degree Selector Section -->
+            <section id="degree-selector">
+                <label for="degree-select">Select Degree:</label> 
+                <select id="degree-select">
+                    <!-- Options for different degrees available -->
+                    <option value="cs">Computer Science</option>
+                    <option value="che">Chemistry</option>
+                    <option value="bioe">Biomedical Engineering</option>
+                    <option value="cive">Civil Engineering</option>
+                    <option value="cpe">Computer Engineering</option>
+                    <option value="ee">Electrical Engineering</option>   
+                    <option value="Environmental Design, B.S.">Environmental Design, B.S.</option>
+                    <option value="Industrial Design, B.S.">Industrial Design, B.S.</option>
+                    <option value="Interior Architecture, B.S.">Interior Architecture, B.S.</option>
+                </select>
+            </section>
+
+            <!-- Container for dynamically loaded academic map content -->
+            <div id="academic-map"></div>
+
+            <!-- Course Management Section -->
+            <section id="course-management">
+                <h2>Course Management</h2> <!-- Title for the course management section -->         
+            </section>
+
+            <!-- Course Search Section -->
+            <section id="course-search">
+                <h2>Search and Manage Courses</h2> 
+                <!-- Input field to search for courses -->
+                <input type="text" id="searchQuery" placeholder="Search for a course" onkeyup="searchCourses()"> 
+                <!-- Container to display search results -->
+                <div id="searchResults"></div> 
+            </section>
+
+            <!-- Academic Map Management Section -->
+            <section id="academic-map-management">
+                <h2>Manage Academic Maps</h2> 
+                
+                <!-- Form for adding or editing an academic map -->
+                <form id="academic-map-form">
+                    <input type="text" id="mapName" placeholder="Map Name" required> 
+                    <textarea id="mapDescription" placeholder="Map Description" required></textarea> 
+                    <button type="submit">Add/Edit Academic Map</button> 
+                </form>
+
+                <h3>Existing Academic Maps</h3>
+                <!-- Container to list existing academic maps -->
+                <div id="academic-map-list"></div> 
+            </section>
+        </main>
+
+        <!-- Footer section -->
+        <footer>
+            <p>&copy; 2024 College of Natural Sciences & Mathematics</p> 
+        </footer>
+    </div>
+
+    <!-- Modal for Adding a New Course -->
+    <div id="add-course-modal" class="modal hidden">
+        <div class="modal-content">
+            <!-- Close button for the modal -->
+            <span class="close-btn">&times;</span> 
+            <h2>Add New Course</h2> 
+
+            <!-- Form for adding a new course -->
+            <form id="add-course-form">
+                <div class="form-group">
+                    <label for="course-num">Course Number:</label> 
+                    <input type="text" id="course-num" required> 
+                </div>
+
+                <div class="form-group">
+                    <label for="course-title">Course Title:</label> 
+                    <input type="text" id="course-title" required> 
+                </div>
+
+                <div class="form-group">
+                    <label for="credit-hours">Credit Hours:</label> 
+                    <input type="number" id="credit-hours" min="0" required> 
+                </div>
+
+                <!-- Submit button to add course -->
+                <button type="submit">Add Course</button> 
+            </form>
+        </div>
+    </div>
+</body>
+</html>
