@@ -1,5 +1,3 @@
-# Academic-Map-Web-Application
-
 # Academic Map Web Application
 
 ## Overview
@@ -17,23 +15,6 @@ The Academic Map web application allows students and administrators to view, man
 - **Search Courses:** Quickly search for courses by name or number.
 - **Total Credit Hours:** Automatically calculate total credit hours for each semester.
 - **Modal Interface:** User-friendly modal for adding new courses.
-
----
-
-## File Structure
-project/
-│
-├─ index.html # Main HTML file
-├─ css/
-│ └─ styles.css # External CSS styles
-├─ js/
-│ └─ app.js # Main JavaScript logic
-├─ images/
-│ └─ uh.png # University logo
-├─ data/
-│ └─ academicmap.json # Academic map data for all programs
-└─ README.md # Project documentation
-
 
 ---
 
